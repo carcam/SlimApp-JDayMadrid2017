@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self' gap://ready file://* *; style-src 'self' 'unsafe-inline'; font-src 'self' 'unsafe-inline' data:; script-src 'self' http: https: 'unsafe-inline' 'unsafe-eval'; connect-src 'self' http: https: data: blob: filesystem: ws:">
+
+		<title>JoomGap SlimApp</title>
+
+		<link rel="manifest" href="manifest.json">
+
+		<!-- un-comment this code to enable service worker
+		<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('service-worker.js')
+			.then(() => console.log('service worker installed'))
+			.catch(err => console.log('Error', err));
+		}
+		</script>-->
+
+		<link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- ionic/angularjs js -->
+		<script src="lib/ionic/js/ionic.bundle.min.js"></script>
+		<script src="lib/ng-cordova/dist/ng-cordova.min.js"></script>
+
+		<!-- cordova script (this will be a 404 during development) -->
+		<script src="cordova.js"></script>
+
+		<!-- your app's js -->
+		<script src="js/app.js"></script>
+
+		<script src="js/_constants.js"></script>
+		<script src="js/jgbrowser.js"></script>
+		<script src="js/jgsite.js"></script>
+
+		<script src="js/jgnotifications.js"></script>
+		<script src="js/jgphonegap.js"></script>
+		<script src="js/jgpushwoosh.js"></script>
+		<script src="js/jgurbanairship.js"></script>
+
+	</head>
+
+	<body ng-app="starter" class="slimApp">
+		<ion-nav-view>
+		</ion-nav-view>
+	</body>
+</html>
