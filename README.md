@@ -50,7 +50,11 @@ Para comenzar a recorrer este camino, en el taller vamos a conocer una estrategi
 
 *Para activarlo tendremos que ir a Ajustes y aquí irnos a “Acerca del teléfono/Información del dispositivo/cualquier otra cosa parecida”. Ahora buscamos un apartado que sea “Número de compilación” y pulsamos 7 veces en él hasta que aparezca una ventana que diga: “Ya eres desarrollador (o parecido)”. Volvemos a los ajustes y habrá aparecido un apartado más en los ajustes: Opciones de Desarrollo.*
 
-Ref: [Cómo se activan las Opciones de Desarrollo](https://elandroidelibre.elespanol.com/2016/08/mejorar-rendimiento-desde-opciones-desarrollo.html)
+Ref: [Cómo se activan las Opciones de Desarrollo, Depuración USB](https://elandroidelibre.elespanol.com/2016/08/mejorar-rendimiento-desde-opciones-desarrollo.html)
+
+### En Android, ¿Cómo depuro la App remotamente?
+
+Ref: [Get Started with Remote Debugging Android Devices](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
 
 ### Para iOS, ¿Cómo se instala la App?
 
