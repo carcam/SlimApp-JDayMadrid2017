@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.joomgap.slimappjdaymadrid2017" version="1.0.0"
+<widget id="mastermindtest" version="1.0.0"
     xmlns="http://www.w3.org/ns/widgets"
     xmlns:gap="http://phonegap.com/ns/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- 1. App Id, Name, Description and Author -->
-    <name>JDay Madrid 2017</name>
-    <description>JoomGap SlimApp - JDayMadrid2017</description>
-    <author email="team@joomgap.com" href="http://www.joocial.com/">JoomGap</author>
+    <name>Mastermind Joomla</name>
+    <description>UN PODCAST SOBRE JOOMLA Y DESARROLLO WEB PARA QUE POTENCIES TUS PROYECTOS.</description>
+    <author email="carlos@mastermindjoomla.com" href="https://mastermindjoomla.com/">Carlos Cámara</author>
 
     <!-- 2. Android - Debuggable -->
     <gap:config-file platform="android" parent="/manifest">
